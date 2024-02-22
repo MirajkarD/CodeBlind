@@ -1,0 +1,46 @@
+/* PythonCodeEditor.css */
+
+.question {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 100;
+  color: black; /* Adjust the font color to ensure visibility */
+}
+
+.editor-container {
+  height: 400px; /* Adjust the height to your preference */
+  width: 80%; /* Adjust the width to your preference */
+  margin: 40px auto;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* margin-top: 10px; */
+}
+
+#editor {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  color: transparent; /* Set text color to transparent */
+  background-color: #282a36; /* Set background color to match Darcula theme */
+  min-height: 300px; /* Adjust height as needed */
+}
+
+.add-editor {
+  margin-top: 10px;
+}
+.custom-ace-editor .ace_selection {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); /* Adjust opacity to make the selected text visible */
+  color: #000; /* Set color of selected text to black */
+}
